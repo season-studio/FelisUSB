@@ -1,5 +1,5 @@
 # Felis USB
-![alt FelisUSB](./FelisUSB.png)
+![FelisUSB](https://season-studio.github.io/logo/FelisUSB.png)
 -----------
 **中文** | [英文](./readme_en.md)
 
@@ -52,9 +52,9 @@ Felis USB is an USB stack for embedded system. See introduction in English [here
 
 #include "adapters/stm32f4_hal_adapter.h"
 
-#define FUSBD_ADPT_SPEED								(PCD_SPEED_FULL)
+#define FUSBD_ADPT_SPEED                (PCD_SPEED_FULL)
 
-#define FUSB_DEBUG_OUT									(3)
+#define FUSB_DEBUG_OUT                  (3)
 
 #endif	// __FELIS_USB_BOARD_H__
 

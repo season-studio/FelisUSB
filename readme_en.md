@@ -1,5 +1,5 @@
 # Felis USB
-![alt FelisUSB](./FelisUSB.png)
+![alt FelisUSB](https://season-studio.github.io/logo/FelisUSB.png)
 -----------
 [中文](./readme.md) | **英文**
 
@@ -52,9 +52,9 @@ Example（The whole code is stored in the sample folder）：
 
 #include "adapters/stm32f4_hal_adapter.h"
 
-#define FUSBD_ADPT_SPEED								(PCD_SPEED_FULL)
+#define FUSBD_ADPT_SPEED                (PCD_SPEED_FULL)
 
-#define FUSB_DEBUG_OUT									(3)
+#define FUSB_DEBUG_OUT                  (3)
 
 #endif	// __FELIS_USB_BOARD_H__
 
